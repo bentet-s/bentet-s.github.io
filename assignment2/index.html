@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class='nav'>
+            <a onclick="homeactive()"><div class ="logo">
+            </div></a>
+            <div class="flex-container">
+                <div class = "link hide" id="logout" ><a href ="#link" id ='lobtn' onclick="logout()">Logout</a></div>
+                <div class = "link" id="logins" ><a href ="#link" id ='lbtn' onclick="loginactive()">Login/Register</a></div>
+                
+
+                <div class = "link hide" id="mblink" ><a href ="#link" id ='lobtn' onclick="mbactive()">my bookings</a></div>
+                <div class = "link" id = 'about'><a href ="#about-us">About</a></div>
+                
+            </div>  
+        </div>
+    </header>
+    <section id = "home"  >
+        <section id ="cover">
+                <div id ="homecontent" class="images" >
+                    <div class = "pop-section">
+                        <form id = "booked">
+                            <div class="sections">
+                                <h2><text>Pick up & Return Locations </text></h2>
+                                <input type="text" class="pickup" id="pickup">
+                                <br>
+                                <div class="section_b" id="addpoint">
+                                
+                                        
+                                <button class="add_return" id="addbtn" onclick="addpoint()">
+                                    <div id="add_img" class ="images"></div>
+                                    <h2>Add Return</h2>
+                                </button>
+
+                            </div>
+                            </div>
+                            <div class="sections">
+                                <h2><text>Pick up Times</text></h2>
+                                    <input class ="time pickup" type="datetime-local" min="2024-12-1" max='2025-1-19'id='ptime'>
+
+
+                            </div>
+
+                            <div class="sections">
+                                <h2><text>Drop off Times</text></h2>
+                                <input class ="time pickup" type="datetime-local" min="2024-15-1" max='2025-1-19'id='dtime'>
+                            </div>
+                        <div class="section-c">
+                            <input type="reset" class = "reset-btn">
+                                <input type="submit" class="cta-button" id="bookings" value="RENT NOW" onclick='availablebookings()'>
+                        </div> 
+                        </form>
+
+                    </div>
+                </div>
+</section>
+        <section id ="about-us">
+            <div class = "centering">
+                <div class = "contentbox">
+
+                    <div class="text-box">
+                        <h1>BY TRAVELLERS</h1>
+                        <p>We at -company name-, are seasoned travellers.</p>
+                        <p>Understanding that the lack of competitors in the car rental space is a huge problem for the regular traveller. Often being the lack of varieties to meet the needs of families or the car models not matching the user's needs</p>
+                        <p>Therefore we started our own local car rental business, with the best prices and varieties possible</p>
+                    </div>
+                    <div class='img-box'>
+                        <div class = "images content-img" id ="img2"></div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "contentbox">
+                    <div class='img-box'>
+                        <div class = "images content-img" id ="img3"></div> 
+                    </div>
+                    <div class="text-box">
+                        <h1>FOR TRAVELLERS</h1>
+                        <p>We have a large variety of cars</p>
+                        <p>from family cars to fuel effecient hybrid cars, available readily and can be driven to you at any airport or ports in singapore, directly from our fleets</p>
+                        <p>All at the best possible prices for you, your families and friends    to explore the country</p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+</section>
+        <section id ="carousel">
+            <div class = "c-container">
+                <div class="carousel fade">
+                    <div class="carname"><h1>Transit</h1></div>
+                    <img src="./car_img/Transit.png">
+                </div>
+
+                <div class="carousel fade">
+                    <div class="carname"><h1>avanza</h1></div>
+                    <img src="./car_img/avanza.png">
+
+                </div>
+
+                <div class="carousel fade">
+                    <div class="carname"><h1>Hilux</h1></div>
+                    <img src="./car_img/hilux.png">
+
+                </div>
+                <div class="carousel fade">
+                    <div class="carname"><h1>T34</h1></div>
+                    <img src="./car_img/T34.png">
+
+                </div>
+
+                <a class="prev" onclick="nextimg(-1)">&#10094;</a>
+                <a class="next" onclick="nextimg(1)">&#10095;</a>
+
+                <div class= "dots" style="text-align:center">
+                    <span class="dot" onclick="currentimg(1)"></span>
+                    <span class="dot" onclick="currentimg(2)"></span>
+                    <span class="dot" onclick="currentimg(3)"></span>
+                    <span class="dot" onclick="currentimg(4)"></span>
+                </div>
+            </div>
+
+</section>
+    </section>
+    <section id = "login" class="hide" >
+        <div class='heroimage img'>
+            <div class="pop-section tab2">
+                <div id="login-section" class="login">
+                    <div class = "selectiontabs">
+                        <div id= "logintab" onclick="changeform(0)"><h1>Login</h1></div>
+                        <div id= "registertab" class="inactive-R"  onclick="changeform(1)"><h1>Register</h1></div>
+                    </div>
+                <div class="forms">
+                    <div id="L-form">
+                        <form id="loginform">
+                            <br><label>Username</label><br>
+                            <input type="text" placeholder="Username required" id ="username"><br>
+                            <br><label>Password</label><br>
+                            <input type="password" placeholder="password required" id="password"><br><br>
+                            <input type="submit" class="cta-button logreg" value="Login">
+                            <br>
+                            <hr><h3>or</h3><hr>
+                            <input type="button" id = "staff-login" value ="staff Login" onclick="changeform(2)">
+                        </form>
+                    </div>
+                    <div id="R-form"class="hide">
+                        <form id="registerform">
+                            <br><label>Username</label><br>
+                            <input type="text" placeholder="Username required" id ="r-username"><br>
+                            <br><label>Email</label><br>
+                            <input type="text" placeholder="Email required" id="r-email"><br>
+                            <br><label>Password</label><br>
+                            <input type="password" placeholder="password required" id="r-password"><br>
+                            <br><label>confirm Password</label><br>
+                            <input type="password" placeholder="password required" id="re-password"><br><br>
+                            <input type="submit" class="cta-button logreg" value="Register">
+                        </form>
+                    </div>
+                     <div id="S-form" class ='hide'>
+                        <form id="Sloginform">
+                            <br><label>Username</label><br>
+                            <input type="text" placeholder="Username required" id ="Susername"><br>
+                            <br><label>Password</label><br>
+                            <input type="password" placeholder="password required" id="Spassword"><br><br>
+                            <input type="submit" class="cta-button logreg" value="Staff Login">
+                            <br>
+                            <hr><h3>or</h3><hr>
+                            <input type="button" id = "staff-login" class="cta-button logreg" value ="User Login" onclick="changeform(0)">
+                        </form>
+                    </div>
+                </div>
+                    
+                </div>
+            
+            
+            </div>
+        
+        
+        </div>
+    
+    </section>
+    <section id = 'booking'class="hide" >
+        <div class='heroimage img'>
+            <div class = "text"><h1> Available Vehicles </h1></div>
+            <div class = "content-tainer" id="available_booking">
+                <div class = "sections" id='cards'></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id = 'payment' class="hide">
+        <div class='heroimage img'>
+            <div class = "text"><h1> Payment </h1></div>
+            <div class = "content-tainer" id="payment_form">
+                <div class = "sections fpay" id='paymentform'>
+                    <form id ="p_form">
+                        <div class = 'f_sectionA'>
+                            <label>First Name: </label><br>
+                            <input type ='text' id ='fname'>
+                        </div>
+                        <div class = 'f_sectionA'>
+                            <label>Last Name: </label><br>
+                            <input type ='text' id ='Lname'>
+                        </div>
+                        <div class = 'f_sectionB'>
+                            <label>Card number: </label><br>
+                            <input type="number" id ='cnum'>
+                        </div>
+                        <div class = 'pay_methods'>
+                                <div class='visa-img'></div>
+                                <div class='MC-img'></div>
+                        
+                        </div>
+                        <div class = 'f_sectionC'>
+                            <label>cvc: </label>
+                            <br><input type='password' id = 'cvc'>
+                        </div>
+                        <div class = 'f_sectionC'>
+                            <label>Expiration Date: </label>
+                            <input type= "date" id="expire">
+                        </div>
+                            <input type="submit" class="cta-button logreg pay" value="SUBMIT PAYMENT">
+                            
+                    
+                    
+                    
+                    
+                    </form>
+                    
+                
+                
+                
+                
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section id = 'staffpage' class="hide">
+        <div class='heroimage img'>
+            <div class = "text"><h1> Confirmations and Returns </h1></div>
+            <div class = "content-tainer" id="available_booking">
+                <div class = "sections" id='s_cards'>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id = 'mybookings' class="hide">
+        <div class='heroimage img'>
+            <div class = "text"><h1> My Bookings </h1></div>
+            <div class = "content-tainer" id="available_booking">
+                <div class = "sections" id='mb_cards'>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+            <div class="footercontent">
+            <div class="img-box2">
+                <a href="index.html">
+                    <div class ="f_logo"></div>
+                </a>
+            </div>
+            <div class = 'separator'></div>
+            <div class = 'fsc'>
+                <div class="sc-cont">
+                    <a href = "https://www.facebook.com">
+                        <div class='fb-icon'></div>
+                        <div class ="sc-text">Facebook</div>
+                    </a>
+                </div>
+                <div class="sc-cont">
+                    <a href="https://www.x.com">
+                        <div class='tw-icon'></div>
+                        <div class ="sc-text">X(formerly twitter)</div>
+                    </a>
+                </div>
+                <div class="sc-cont">
+                    <a href="https://www.pngwing.com">
+                        <div class ="sc-text">All vehicle images used are from pngwing.com</div>
+                    </a>
+                </div>
+                
+
+            </div>
+            <address>
+                <div class="textbox">
+                    <p>Our Address:</p>
+                    <br><br>
+                    <p>Singapore 089066</p>
+                    <p>1557 Keppel Rd</p>
+                    <p>Keppel Viaduct, #3-1n The Sky</p>
+                    <p>Contact number:</p>
+                    <p>652503124</p>
+                </div>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d838.5491011221804!2d103.8396878139206!3d1.2725874295884603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgrandfather%20road!5e0!3m2!1sen!2ssg!4v1729683826035!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </address>
+            
+            </div>
+            
+        
+        
+    </footer>
+    <script src="script.js"></script>
+       
+    
+
+</body> 
+</html>
