@@ -1,0 +1,1574 @@
+@media (min-width: 800px){
+    body{
+        padding,margin: 0;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+    }
+    section{
+        display:block;
+        height: auto;
+        width: auto;
+    }
+    h1,h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    h1{
+        font-size: 300%;
+        margin-bottom: 4%;
+    }
+
+    *{
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+
+    }
+
+    input{
+        border: 1px solid black;
+    }
+    form{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+
+    header{
+
+        width:   100%;
+        height:  20%;
+    }
+
+    .sections,.section-c{
+        float: left;
+    }
+    .sections{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    article{
+        background-color:  dimgrey;
+        width:   100%;
+        height:  20%;
+    }
+    .nav{
+    /*
+        background-image: linear-gradient( rgba(0,0,0,1), rgba(255,0,0,0));
+    */  
+        position: relative;
+        z-index: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 6vh;
+        width:100%;
+
+
+    }
+    #home{
+        height: 305vh;   
+    }
+    .flex-container{
+        display: flex;
+        flex: auto; 
+        flex-direction: row-reverse;
+        width:70%;
+        height: 100%;
+        float: right;
+        background-color: black 10%;
+    }
+
+    .logo{
+        position: relative;
+        background-image: url(./icons/logo-white.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        fill: white;
+        width: 20%;
+        height: 140%;
+        padding: 2%;
+        top: -80%;
+        float: left;
+        margin-left: 2%;
+    }
+    .link,.logo{
+        padding: 2%;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+    .link{
+        padding: 1.75% 1.75% 1% 1.75%;
+    }
+    .link:hover{
+
+        border-bottom: 5px solid white;
+
+    }
+    a{
+        margin: auto;
+        text-decoration: none;
+        color: white;
+    }
+
+    #homecontent{
+        background-image:url(image1.jpg);
+        background-size: cover;
+        height: 144vh;
+        width: 100%;
+        margin-top: -30%;
+        display: block;
+    }
+    .pop-section{
+        float: left;
+        box-shadow: 5px 5px 40px black;
+        width: 50%;
+        height: auto;
+        border-radius: 25px;
+        padding: 3%;
+        margin-left: -3%;
+        margin-top: 6%;
+        background-color: white;
+        form{
+            margin: 0;
+        }
+    }
+
+    .pickup{
+        width: 85%;
+        font-size: 210%;
+    }
+    .time{
+        float: left;
+        width: 80%;
+        padding: 2%;
+        font-size: 150%;
+    }
+    .cta-button,#staff-login{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 120%;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 10px;
+        border: 0px;
+        color: white;
+
+
+        background-color: #09945A;
+    }
+    .cta-button:hover{
+        border: 1px solid black;
+
+        color: #09945A;
+
+        background-color: white;
+    }
+    .reset-btn{
+        border: 0px;
+        color: black;
+        border: none;
+        background-color: white;
+    }
+    .section_b{
+        float: left;
+        width: 75%;
+        padding: 3%;
+    }
+    .add_return{
+        color: black;
+        border: none;
+        background-color: white;
+        width: 120%;
+        h2{
+            float: left;
+            font-size: 200%;
+            padding-left: 5%;
+            margin-top: 3%;
+
+        }
+    }
+    .images{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+    #add_img{
+        background-image: url(add_button.png);
+        padding: 6%;
+        float: left;
+    }
+    .text-box{
+        float: left;
+        width: 40%;
+        height: auto;
+        padding: 5%;
+        margin-top: -8.1%;
+
+    }
+
+
+    .content-img{
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 35vh;
+        margin-top:1%;
+        overflow: hidden;
+    }
+    .content-img:hover{
+        transform:scale(1.75);
+    }
+
+    .img-box{
+        width: 40%;
+        height: 35.5vh;
+        margin-left: 3%;
+        margin-right: 4%;
+        float: left;
+        display: block;
+        overflow: hidden;
+    }
+
+    #img2{
+
+        background-image: url(image2.jpeg);  
+    }
+    #img3{
+
+        background-image: url(img3.jpeg);
+
+    }
+    .section-c{
+        width: 100%;
+        float: right;
+        text-align: right;
+        padding:2%;
+        padding-top:2%;
+
+    }
+    .none{
+        display:none;
+    }
+    #about-us{
+
+        background-color: white;
+        display: block;
+    }
+    .contentbox{
+        margin-top: -3%;
+        width: 80%;
+        height: 35vh;
+        padding: 4%;
+        margin-left:auto;
+        margin-right:auto;
+        background-color: white;
+        text-align: left;
+        display: block;
+        overflow: hidden;
+    }
+    .centering{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c-container{
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+
+    }
+    #carousel{
+        margin-top: 5vh;
+        width: 100%;
+        height: 72vh;
+        background-color: #390002;
+        background-image: linear-gradient( rgba(0,0,0,1), rgba(0,0,0,0), rgba(111,0,0,.2),rgba(111,0,0,1), rgba(0,0,0,1));
+        display: block;
+
+    }
+
+    .carousel{
+        display:none;
+    }
+
+    img{
+        float: left;
+        width: 35%;
+        margin-top: 10%;
+        margin-left: 30%;
+        right: auto;
+        position: absolute;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: 28vh;
+        padding: 3%;
+        color: rgba(255,255,255,0.5);
+        font-weight: bold;
+        font-size: 250%;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+        color: rgba(255,255,255,1);
+    }
+
+    .carname {
+        color: #f2f2f2;
+        position: absolute;
+        top: 0;
+        padding: 1%;
+        padding-left: 8%;
+    }
+    .dots{
+        position: relative;
+        bottom: -67vh;
+    }
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        bottom: 0;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: white;
+    }
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+
+    .hide{
+        display: none;
+    }
+
+    footer{
+        display:block;
+        position: relative;
+        width: 100%;
+        z-index: -1;
+        height: 60vh;
+        clear: both;
+        background-color: #000638;
+        box-shadow: 1px 1px 10px;
+    }
+    .footercontent{
+        width: 80%;
+        height: 29vh;
+
+        padding: 10% 0% 0% 0%;
+        margin: auto;
+
+    }
+    .img-box2{
+        position: relative;
+        top: 30%;
+        width: 20%;
+        height: 16vh;
+        display: block;
+        overflow: hidden;
+        align-content: center;
+        a{
+            height: auto;
+            width: inherit;
+            padding: auto;
+        }
+
+    }
+    .f_logo{
+        background-image: url(./icons/logo-text-white.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 75%;
+        padding: auto;
+
+    }
+
+
+    .separator{
+        border-left: 1px solid white;
+        position: relative;
+        height: 20vh;
+        width: 0.1%;
+        top: -37%;
+        margin-left: 20%;
+        float:left;
+    }
+    .fsc{
+        float: left;
+        margin-top: -10%;
+        margin-right: -10%;
+        padding: 2%;
+        width: 30%;
+        height: 20vh;
+    }
+    .sc-cont{
+        float: left;
+        margin-top: 0;
+        margin-right: -10%;
+        padding: 2%;
+        width: 100%;
+        height: 7.5vh;
+    }
+    .fb-icon,.tw-icon{
+        height: 1.1vh;
+        width: 1%;   
+        background-repeat: no-repeat;
+        background-size:contain;
+        transform: scale(0.5);
+        float: left;
+        margin-top: 3%;
+        padding: 6%;
+
+    }
+    .fb-icon{
+        background-image: url(./icons/Facebook_Logo_Secondary.png);
+    }
+    .tw-icon{
+        background-image: url(icons/x-logo-white.png);
+    }
+    .sc-text{
+        color: white;
+        margin-right: -12%;
+        margin-top: 6.75%;
+        float: left;
+        padding: 1%;
+
+    }
+
+
+    li{
+        width: 70%;
+
+    }
+    .textbox{
+        float: left;
+        width: 40%;
+        height: auto;
+        padding: 5%;
+        margin-top: 3.9%;
+    }
+    address{
+        width: 50%;
+        float: left;
+        margin-top: -10%;
+        p{
+            color:white;
+            float: left;
+            margin: 2%;
+
+        }
+        iframe{
+            float: right;
+            width: 48%;
+            height: 26vh;
+
+        }
+    }
+    .img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heroimage{
+        background-image: url(image1.jpg);
+        width: 100%;
+        height: 160vh;
+        margin-top: -15%;
+        z-index: -2;
+
+
+    }
+    #login-section{
+        width: 100%;
+        float: left;
+    }
+    .tab2{
+        height: 102vh;
+        padding: 0;
+    }
+    .selectiontabs{
+        width: 100%;
+        height: 10vh;
+    }
+    #logintab,#registertab{
+        margin: 0 0 0 0;
+        display: block;
+        float: left;
+        width: 50%;
+        height: 6vh;
+        text-align: center;
+        padding: 3% 0% 0 0%;
+        h1{
+            margin: 0;
+            font-size: 200%;
+        }
+    }
+    .inactive-R,.inactive-L{
+        color: white;
+        background-color: #4d4d4d;     
+    }
+    .inactive-R{
+        border-top-right-radius: 25px;       
+    }
+    .inactive-L{
+        border-top-left-radius: 25px;       
+    }
+    .forms{
+        height: 80vh;
+    }
+    #loginform,#registerform,#Sloginform,#p_form{
+        margin: 0;
+        text-align: center;
+        font-size: 150%;
+        input{
+            padding: 3%;
+            margin-top: 2%;
+        }
+        label{
+            text-align: left;
+            float: left;
+            right: -7%;
+            position: relative;
+        }
+        h3,hr{
+            width: 30%;
+            float: left;
+            text-align: center;
+            left: 5%;
+            position: relative;
+        }
+        hr{
+            margin-top: 6.5%;
+        }
+    }
+    #registerform{
+        height: 90vh;
+    }
+    .logreg,#staff-login{
+        width: 87%;
+    }
+    #staff-login{
+        background-color: #000638;
+    }
+    #staff-login:hover{
+        background-color: #000d7d;
+
+    }
+    #username,#password,#re-password,#r-password,#r-email,#r-username, #Susername,#Spassword{
+        width: 80%;
+
+
+    }
+    .text{
+        text-align: center;
+        width: 100%;
+        display: block;
+        height: 48vh;
+        color: white;
+        background-color: rgba(0,0,0,0.6);
+        h1{
+            color: white;
+            text-align: center;
+            padding: auto;
+            left: 11%;
+            position: relative;
+            float: left;
+        }
+    }
+    #payment{
+        h1{
+            left: 16%;
+        }
+    }
+    .content-tainer{
+        width: 100%;
+        height: 115vh;
+        background-color: white
+
+    }
+    .tab{
+        width: 100%;
+        height: 20vh;
+        box-shadow: 1 1;
+    }
+
+    .bookcard{
+        float: left;
+        width: 20%;
+        margin: 5% 5% 5% 0;
+
+        height: auto;
+        border-radius: 25px;
+        box-shadow: 1px 1px 10px;
+        background-color: #000638;
+
+        .cardtext{
+            width: 100%;
+            background-color: white;
+            float: left;
+            text-align: center;
+            line-height: 40%;
+            display: block;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+                form{
+                    margin: 0;
+                    }
+
+
+        }
+    }
+
+    .bookbtn{
+        float: left;
+        width: 100%;
+        height: 10%;
+        margin-top: -4.5%;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        font-size: 150%;
+        color: white;
+        background-color: #000638;
+    }
+    .amounttext{
+        width: 30%;
+        float: right;
+        margin-top: -6%;
+    }
+    .imgholder{
+        float: left;
+        height: 17vh;
+        width: 100%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            position: static;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+    }
+    .fpay{
+        width: 45%;
+        margin-left: 26%;
+        }
+    #p_form{
+        .pay_methods{
+            width: 20%;
+            float: left;
+            margin-left: 3%;
+            height: 5vh;
+
+        }
+        .visa-img{
+            float: left;
+            width: 25%;
+            height: 5vh;
+            padding: 5%;
+            background-image: url(icons/Visa_Brandmark_Blue_RGB_2021.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .MC-img{
+            float: left;
+            width: 25%;
+            height: 5vh;
+            padding: 5%;
+            background-image: url(icons/ma_symbol.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;  
+        }
+        .f_sectionA{
+            width: 45%;
+            float: left;
+            margin-left: 3%;
+            margin-top: 5%;
+
+        }
+        .f_sectionB{
+            width: 92%;
+            margin-left: 3%;
+            margin-top: 1%;
+            float: left;
+        }
+        .f_sectionC{
+            float: left;
+            width:30%;
+            margin-left: 3%;
+            margin-top: 1%;
+        }
+        #cnum{
+            width: 100%;
+            float: left;
+            margin: auto;
+        }
+        input{
+            width: 100%;
+            padding: 1%;
+            float: left;
+            margin: 0;
+            text-align: left;
+
+        }
+        label{
+            right: 0;
+        }
+        .pay{
+            margin-top: 4%;
+            text-align: center;
+        }
+
+    }
+    .heroimage{
+        h1{
+            left:13%;
+        }
+    }
+    #booked{
+        .sections{
+            width: 40%;
+            margin-left: 9%;
+
+        }
+    }
+    .textbox2{
+        width: 30%;
+    }
+
+    #login{
+        .pop-section{
+            width: 45%;
+            margin-left: 3%;
+        }
+    }
+}
+@media (max-width: 800px){
+
+    body{
+        padding,margin: 0;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+    }
+    section{
+        display:block;
+        height: auto;
+        width: auto;
+    }
+    h1,h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    h1{
+        font-size: 225%;
+        margin-bottom: 4%;
+    }
+
+    *{
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+
+    }
+
+    input{
+        border: 1px solid black;
+    }
+    form{
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+
+    header{
+
+        width:   100%;
+        height:  20%;
+    }
+
+    .sections,.section-c{
+        float: left;
+    }
+    .sections{
+        width: 99%;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    article{
+        background-color:  dimgrey;
+        width:   100%;
+        height:  20%;
+    }
+    .nav{
+    /*
+        background-image: linear-gradient( rgba(0,0,0,1), rgba(255,0,0,0));
+    */  
+        position: relative;
+        z-index: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 6vh;
+        width:100%;
+
+
+    }
+    #home{
+        height: 305vh;   
+    }
+    .flex-container{
+        display: flex;
+        flex: auto; 
+        flex-direction: row-reverse;
+        width:70%;
+        height: 100%;
+        float: right;
+        background-color: black 10%;
+    }
+
+    .logo{
+        position: relative;
+        background-image: url(./icons/logo-white.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        fill: white;
+        width: 20%;
+        height: 140%;
+        padding: 2%;
+        top: -35%;
+        float: left;
+        margin-left: 2%;
+    }
+    .link,.logo{
+        padding: 2%;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+    .link{
+        padding: 1.75% 1.75% 1% 1.75%;
+    }
+    .link:hover{
+
+        border-bottom: 5px solid white;
+
+    }
+    a{
+        margin: auto;
+        text-decoration: none;
+        color: white;
+    }
+
+    #homecontent{
+        background-image:url(image1.jpg);
+        background-size: cover;
+        height: 85vh;
+        width: 100%;
+        margin-top: -30%;
+        display: block;
+    }
+    .pop-section{
+        float: left;
+        box-shadow: 5px 5px 40px black;
+        width: 80%;
+        height: auto;
+        border-radius: 25px;
+        padding: 3%;
+        margin-left: 7%;
+        margin-top: 6%;
+        background-color: white;
+        form{
+            margin: 0;
+        }
+    }
+
+    .pickup{
+        width: 85%;
+        font-size: 210%;
+    }
+    .time{
+        float: left;
+        width: 80%;
+        padding: 2%;
+        font-size: 150%;
+    }
+    .cta-button,#staff-login{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 85%;
+        padding: 6%;
+        padding-left: 4%;
+        padding-right: 4%;
+        border-radius: 10px;
+        border: 0px;
+        color: white;
+
+
+        background-color: #09945A;
+    }
+    .cta-button:hover{
+        border: 1px solid black;
+
+        color: #09945A;
+
+        background-color: white;
+    }
+    .reset-btn{
+        border: 0px;
+        color: black;
+        border: none;
+        background-color: white;
+    }
+    .section_b{
+        float: left;
+        width: 75%;
+        padding: 3%;
+    }
+    .add_return{
+        color: black;
+        border: none;
+        background-color: white;
+        width: 120%;
+        h2{
+            float: left;
+            font-size: 110%;
+            padding-left: 5%;
+            margin-top: 3%;
+
+        }
+    }
+    .images{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+    }
+    #add_img{
+        background-image: url(add_button.png);
+        padding: 6%;
+        float: left;
+    }
+    .text-box{
+        float: left;
+        width: 80%;
+        height: auto;
+        padding: 5%;
+        margin-top: -8.1%;
+
+    }
+
+
+    .content-img{
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 35vh;
+        margin-top:1%;
+        overflow: hidden;
+    }
+    .content-img:hover{
+        transform:scale(1.75);
+    }
+
+    .img-box{
+        width: 90%;
+        height: 35.5vh;
+        margin-left: 3%;
+        margin-right: 4%;
+        float: left;
+        display: block;
+        overflow: hidden;
+    }
+
+    #img2{
+
+        background-image: url(image2.jpeg);  
+    }
+    #img3{
+
+        background-image: url(img3.jpeg);
+
+    }
+    .section-c{
+        width: 100%;
+        float: right;
+        text-align: right;
+        padding:2%;
+        padding-top:2%;
+
+    }
+    .none{
+        display:none;
+    }
+    #about-us{
+
+        background-color: white;
+        display: block;
+    }
+    #about{
+        display:none;
+    }
+    .contentbox{
+        margin-top: -3%;
+        width: 80%;
+        height: 70vh;
+        padding: 4%;
+        margin-left:auto;
+        margin-right:auto;
+        background-color: white;
+        text-align: left;
+        display: block;
+        overflow: hidden;
+    }
+    .centering{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .c-container{
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+
+    }
+    #carousel{
+        margin-top: 5vh;
+        width: 100%;
+        height: 72vh;
+        background-color: #390002;
+        background-image: linear-gradient( rgba(0,0,0,1), rgba(0,0,0,0), rgba(111,0,0,.2),rgba(111,0,0,1), rgba(0,0,0,1));
+        display: block;
+
+    }
+
+    .carousel{
+        display:none;
+    }
+
+    img{
+        float: left;
+        width: 70%;
+        margin-top: 50%;
+        margin-left: 15%;
+        right: auto;
+        position: absolute;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: 28vh;
+        padding: 3%;
+        color: rgba(255,255,255,0.5);
+        font-weight: bold;
+        font-size: 250%;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+        color: rgba(255,255,255,1);
+    }
+
+    .carname {
+        color: #f2f2f2;
+        position: absolute;
+        top: 0;
+        padding: 1%;
+        padding-left: 8%;
+    }
+    .dots{
+        position: relative;
+        bottom: -67vh;
+    }
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        bottom: 0;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: white;
+    }
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+
+    .hide{
+        display: none;
+    }
+
+    footer{
+        display:block;
+        position: relative;
+        width: 100%;
+        z-index: -1;
+        height: 110vh;
+        clear: both;
+        background-color: #000638;
+        box-shadow: 1px 1px 10px;
+    }
+    .footercontent{
+        width: 80%;
+        height: 100vh;
+
+        padding: 10% 0% 0% 0%;
+        margin: auto;
+
+    }
+    .img-box2{
+        position: relative;
+        top: 10%;
+        width: 100%;
+        height: 16vh;
+        display: block;
+        overflow: hidden;
+        align-content: center;
+        a{
+            height: auto;
+            width: inherit;
+            padding: auto;
+        }
+
+    }
+    .f_logo{
+        background-image: url(./icons/logo-text-white.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        transform: scale(3);
+        width: 100%;
+        height: 75%;
+        padding: auto;
+
+    }
+
+
+    .separator{
+        border-bottom: 1px solid white;
+        position: relative;
+        height: 1vh;
+        width: 80%;
+        top: 10%;
+        margin-left: 8%;
+        float:left;
+    }
+    .fsc{
+        float: left;
+        margin-top: 30%;
+        padding: 2%;
+        width: 100%;
+        height: 20vh;
+    }
+    .sc-cont{
+        float: left;
+        margin-top: 0;
+        margin-right: -10%;
+        padding: 2%;
+        width: 100%;
+        height: 7.5vh;
+    }
+    .fb-icon,.tw-icon{
+        height: 1.1vh;
+        width: 1%;   
+        background-repeat: no-repeat;
+        background-size:contain;
+        transform: scale(0.5);
+        float: left;
+        margin-top: 3%;
+        padding: 6%;
+
+    }
+    .fb-icon{
+        background-image: url(./icons/Facebook_Logo_Secondary.png);
+    }
+    .tw-icon{
+        background-image: url(icons/x-logo-white.png);
+    }
+    .sc-text{
+        color: white;
+        margin-right: -12%;
+        margin-top: 6.75%;
+        float: left;
+        padding: 1%;
+
+    }
+
+
+    li{
+        width: 70%;
+
+    }
+    .textbox{
+        float: left;
+        width: 90%;
+        height: auto;
+        padding: 5%;
+        margin-top: 3.9%;
+    }
+    address{
+        width: 100%;
+        float: left;
+        margin-top: 15%;
+        p{
+            color:white;
+            float: left;
+            margin: 2%;
+
+        }
+        iframe{
+            margin-top: 3%;
+            float: right;
+            width: 90%;
+            height: 26vh;
+
+        }
+    }
+    .img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heroimage{
+        background-image: url(image1.jpg);
+        width: 100%;
+        height: 140vh;
+        margin-top: -66%;
+        z-index: -2;
+        h1{
+            left:-10%;
+        }
+
+
+    }
+    #mybookings{
+        h1{
+            left:0;
+        }
+
+    }
+    #staffpage{
+        h1{
+            left: 1%;
+            top: -7%;
+        }
+    }
+    #login-section{
+        width: 100%;
+        float: left;
+    }
+    .tab2{
+        height: 70vh;
+        padding: 0;
+    }
+    .selectiontabs{
+        width: 100%;
+        height: 10vh;
+    }
+    #logintab,#registertab{
+        margin: 0 0 0 0;
+        display: block;
+        float: left;
+        width: 50%;
+        height: 6vh;
+        text-align: center;
+        padding: 3% 0% 0 0%;
+        h1{
+            margin: 0;
+            font-size: 200%;
+        }
+    }
+    .inactive-R,.inactive-L{
+        color: white;
+        background-color: #4d4d4d;     
+    }
+    .inactive-R{
+        border-top-right-radius: 25px;       
+    }
+    .inactive-L{
+        border-top-left-radius: 25px;       
+    }
+    .forms{
+        height: 80vh;
+    }
+    #loginform,#registerform,#Sloginform,#p_form{
+        margin: 0;
+        text-align: center;
+        font-size: 150%;
+        input{
+            padding: 3%;
+            margin-top: 2%;
+        }
+        label{
+            text-align: left;
+            float: left;
+            right: -7%;
+            position: relative;
+        }
+        h3,hr{
+            width: 30%;
+            float: left;
+            text-align: center;
+            left: 5%;
+            position: relative;
+        }
+        hr{
+            margin-top: 6.5%;
+        }
+    }
+    #registerform{
+        height: 90vh;
+    }
+    .logreg,#staff-login{
+        width: 87%;
+    }
+    #staff-login{
+        background-color: #000638;
+    }
+    #staff-login:hover{
+        background-color: #000d7d;
+
+    }
+    #username,#password,#re-password,#r-password,#r-email,#r-username, #Susername,#Spassword{
+        width: 80%;
+
+
+    }
+    .text{
+        text-align: center;
+        width: 100%;
+        display: block;
+        height: 48vh;
+        color: white;
+        background-color: rgba(0,0,0,0.6);
+        h1{
+            color: white;
+            text-align: center;
+            padding: auto;
+            left: 11%;
+            position: relative;
+            float: left;
+        }
+    }
+    #payment{
+        h1{
+            left: 16%;
+        }
+    }
+    .content-tainer{
+        width: 100%;
+        height: 100vh;
+        background-color: white
+
+    }
+    .tab{
+        width: 100%;
+        height: 20vh;
+        box-shadow: 1 1;
+    }
+
+    .bookcard{
+        float: left;
+        width: 60%;
+        margin: 5% 5% 5% 11%;
+
+        height: auto;
+        border-radius: 25px;
+        box-shadow: 1px 1px 10px;
+        background-color: #000638;
+
+        .cardtext{
+            width: 100%;
+            background-color: white;
+            float: left;
+            text-align: center;
+            line-height: 40%;
+            display: block;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+                form{
+                    margin: 0;
+                    }
+
+
+        }
+    }
+
+    .bookbtn{
+        float: left;
+        width: 100%;
+        height: 10%;
+        margin-top: -4.5%;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        font-size: 150%;
+        color: white;
+        background-color: #000638;
+    }
+    .amounttext{
+        width: 30%;
+        float: right;
+        margin-top: -6%;
+    }
+    .imgholder{
+        float: left;
+        height: 17vh;
+        width: 100%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            position: static;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+    }
+    .fpay{
+        width: 45%;
+        margin-left: 26%;
+        }
+    #p_form{
+        .pay_methods{
+            width: 50%;
+            float: left;
+            margin-left: 3%;
+            height: 5vh;
+
+        }
+        .visa-img{
+            float: left;
+            width: 25%;
+            height: 5vh;
+            padding: 5%;
+            background-image: url(icons/Visa_Brandmark_Blue_RGB_2021.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .MC-img{
+            float: left;
+            width: 25%;
+            height: 5vh;
+            padding: 5%;
+            background-image: url(icons/ma_symbol.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;  
+        }
+        .f_sectionA{
+            width: 100%;
+            float: left;
+            margin-left: 3%;
+            margin-top: 5%;
+
+        }
+        .f_sectionB{
+            width: 100%;
+            margin-left: 3%;
+            margin-top: 1%;
+            float: left;
+        }
+        .f_sectionC{
+            float: left;
+            width:100%;
+            margin-left: 3%;
+            margin-top: 1%;
+        }
+        #cnum{
+            width: 100%;
+            float: left;
+            margin: auto;
+        }
+        input{
+            width: 100%;
+            padding: 1%;
+            float: left;
+            margin: 0;
+            text-align: left;
+
+        }
+        label{
+            right: 0;
+        }
+        .pay{
+            margin-top: 20%;
+            text-align: center;
+            padding: 6%;
+        }
+
+    }
+    #booked{
+        .sections{
+            width: 99%;
+            margin-left: 9%;
+
+        }
+    }
+    .textbox2{
+        width: 30%;
+    }
+
+    #login{
+        .pop-section{
+            margin-left: 10%;
+        }
+    }
+}
+
