@@ -11,7 +11,7 @@ const staffuser = 'staff123';
 const staffpassword = 1234;
 //booking stuff
 const carlist = ['Transit','hilux','avanza','T34'];
-const imageList = ['car_img/Transit.png', 'car_img/Hilux.png', 'car_img/Avanza.png', 'car_img/T34.png'];
+const imageList = ['car_img/Transit.png', 'car_img/hilux.png', 'car_img/avanza.png', 'car_img/T34.png'];
 const caramt = [10,9,3 ,1];
 const pricelist = ['80','10','14','1000'];
 const bookedlist = [];
