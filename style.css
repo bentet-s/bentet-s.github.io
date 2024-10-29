@@ -1399,7 +1399,7 @@
             color: white;
             text-align: center;
             padding: auto;
-            right: 10%;
+            left: -10%;
             position: relative;
             float: left;
         }
